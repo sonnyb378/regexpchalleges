@@ -1,0 +1,33 @@
+Problem 1: Extract all URLs from a given text, including those with query parameters and anchors.
+Input: "Visit https://www.example.com/page?param=value#section or https://another.example/page2#top."
+Output: ["https://www.example.com/page?param=value#section", "https://another.example/page2#top"]
+
+Problem 2: Extract all valid ISBN-10 and ISBN-13 numbers from a given text (ISBN-10: 0-123456-78-9, ISBN-13: 978-0-123456-78-9).
+Input: "Check out ISBN-10: 0-123456-78-9 and ISBN-13: 978-0-123456-78-9."
+Output: ["0-123456-78-9", “978-0-123456-78-9"]
+
+Problem 3: Extract all HTML attributes and their values from a given HTML tag.
+Input: "<a href='https://www.example.com' title='Example'>Link</a>"
+Output: [{"href": "https://www.example.com", "title": “Example"}]
+
+Problem 4: Extract all SQL queries (SELECT, INSERT, UPDATE, DELETE) from a given SQL script.
+Input: "SELECT * FROM users; INSERT INTO orders (product) VALUES ('Widget');"
+Output: ["SELECT * FROM users;", "INSERT INTO orders (product) VALUES (‘Widget');"]
+
+Problem 5: Extract all valid phone numbers, including international formats (e.g., +1 (123) 456-7890), from a given text.
+Input: "Contact us at +1 (123) 456-7890 or 555-123-4567."
+Output: ["+1 (123) 456-7890", “555-123-4567"]
+
+Problem 6: Check if a string is a valid XML document (contains proper opening and closing tags).
+Input (Correct): "<root><element>Value</element></root>"
+Input (Incorrect): "<root><element>Value</root>"
+Output (Correct): true
+Output (Incorrect): false
+ 
+Problem 7: Extract all words that are palindromes (read the same forwards and backwards) from a given text.
+Input: "level kayak radar text"
+Output: ["level", "kayak", “radar"]
+
+Problem 8: Replace all URLs in a given text with "[Link Removed]" while keeping the text intact.
+Input: "Visit https://www.example.com/page or http://another.example."
+Output: "Visit [Link Removed] or [Link Removed]."

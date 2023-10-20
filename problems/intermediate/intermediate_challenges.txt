@@ -1,0 +1,37 @@
+Problem 1: Extract all HTML tags (e.g., <div>, <p>) from an HTML document.
+Input: "<html><body><h1>Hello</h1><p>This is a <b>sample</b> text.</p></body></html>"
+Output: ["<html>", "<body>", "<h1>", "<p>", "<b>", "</b>", "</p>", "</body>", “</html>"]
+
+Problem 2: Replace all occurrences of the word "apple" with "banana" (case insensitive) in a given text.
+Input: "I have an Apple. She has an apple. They like apples."
+Output: "I have an Banana. She has an banana. They like bananas.”
+
+Problem 3: Extract all valid IPv4 addresses from a given text.
+Input: "192.168.1.1 is a valid IP address, but 300.400.500.600 is not."
+Output: [“192.168.1.1"]
+
+Problem 4: Check if a string is a valid hexadecimal color code (e.g., #RRGGBB or #RGB).
+Input (Correct): "#FFA500"
+Input (Incorrect): "#XYZ123"
+Output (Correct): true
+Output (Incorrect): false
+
+Problem 5: Extract all sentences from a given text (sentences end with ".", "!", or "?").
+Input: "This is a sentence. So is this! What is this?"
+Output: ["This is a sentence.", "So is this!", "What is this?”]
+
+Problem 6: Validate a string as a valid email address.
+Input (Correct): "user@example.com"
+Input (Incorrect): "invalid_email"
+Output (Correct): true
+Output (Incorrect): false
+
+Problem 7: Extract all words that contain at least one vowel (a, e, i, o, u).
+Input: "This is a simple example."
+Output: ["This", "is", “example"]
+
+Problem 8: Check if a string is a valid date in the format "YYYY-MM-DD".
+Input (Correct): "2023-10-06"
+Input (Incorrect): "06-10-2023"
+Output (Correct): true
+Output (Incorrect): false

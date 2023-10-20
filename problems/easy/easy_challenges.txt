@@ -1,0 +1,39 @@
+Problem 1: Extract all words (sequences of alphabetic characters) from a given text.
+Input: "Hello World! This is a simple text."
+Output: ["Hello", "World", "This", "is", "a", "simple", “text"]
+
+Problem 2: Check if a string contains only digits (0-9).
+Input (Correct): "12345"
+Input (Incorrect): "12A34"
+Output (Correct): true
+Output (Incorrect): false
+
+Problem 3: Extract all email addresses from a given text.
+Input: "Please contact support@example.com for assistance or info@domain.co.uk."
+Output: ["support@example.com", "info@domain.co.uk"]
+
+Problem 4: Check if a string is a valid URL (starting with "http://" or "https://").
+Input (Correct): "https://www.example.com"
+Input (Incorrect): "ftp://example.com"
+Output (Correct): true
+Output (Incorrect): false
+
+Problem 5: Extract all words that are in uppercase from a given text.
+Input: "HELLO, World! THIS Is a TEXT."
+Output: ["HELLO", "THIS", “TEXT"]
+
+Problem 6: Check if a string contains at least one uppercase letter.
+Input (Correct): "HelloWorld"
+Input (Incorrect): "helloworld"
+Output (Correct): true
+Output (Incorrect): false
+
+Problem 7: Extract all phone numbers in the format (XXX) XXX-XXXX from a given text.
+Input: "Contact us at (123) 456-7890 or (987) 654-3210."
+Output: ["(123) 456-7890", "(987) 654-3210”]
+
+Problem 8: Check if a string contains the word "apple" (case insensitive).
+Input (Correct): "I like apples."
+Input (Incorrect): "Oranges are my favorite."
+Output (Correct): true
+Output (Incorrect): false
